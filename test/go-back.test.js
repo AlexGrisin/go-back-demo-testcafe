@@ -1,9 +1,9 @@
 import { Selector, ClientFunction } from 'testcafe';
 
-fixture `Test browser go back`
+fixture `Fixture browser go back`
     .page `https://www.amazon.com/`;
 
-test('My first test', async t => {
+test('Test browser go back', async t => {
     // Open lister page
     await t.navigateTo('https://www.amazon.com/s?k=gaming+headsets');
 

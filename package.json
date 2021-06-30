@@ -1,0 +1,17 @@
+{
+  "name": "demo-testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-chrome": "testcafe chrome test",
+    "test-bs-chrome": "testcafe 'browserstack:chrome@91.0:Windows 10' test",
+    "test-bs-safari": "testcafe 'browserstack:safari@14.0:OS X Big Sur' test"  
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.14.2",
+    "testcafe-browser-provider-browserstack": "^1.13.1"
+  }
+}

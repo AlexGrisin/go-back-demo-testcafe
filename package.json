@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "node ./index.js",
     "test-chrome": "testcafe chrome test",
     "test-bs-chrome": "testcafe 'browserstack:chrome@91.0:Windows 10' test",
-    "test-bs-safari": "testcafe 'browserstack:safari@14.0:OS X Big Sur' test"  
+    "test-bs-safari": "testcafe 'browserstack:safari@14.0:OS X Big Sur' test"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "openssl-self-signed-certificate": "^1.1.6",
     "testcafe": "^1.14.2",
     "testcafe-browser-provider-browserstack": "^1.13.1"
   }
